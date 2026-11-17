@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.05" />
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      
+      /* Subtle pulse & drift animations in the background layer */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-10px) scale(1.02); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(12px) scale(0.98); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.08); }
+      }
+      @keyframes messageFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes radarWave {
+        0% { r: 10px; opacity: 0.8; stroke-width: 2px; }
+        100% { r: 60px; opacity: 0; stroke-width: 0.5px; }
+      }
+
+      .floating-card-1 {
+        animation: floatSlow 7s ease-in-out infinite;
+      }
+      .floating-card-2 {
+        animation: floatReverse 8s ease-in-out infinite;
+      }
+      .pulsing-orb {
+        transform-origin: center;
+        animation: pulseGlow 6s ease-in-out infinite;
+      }
+      .chat-bubble-anim {
+        animation: messageFloat 4s ease-in-out infinite;
+      }
+      .wave-1 {
+        animation: radarWave 3s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+      }
+      .wave-2 {
+        animation: radarWave 3s cubic-bezier(0.1, 0.8, 0.3, 1) 1.5s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Decorative Glowing Orbs -->
+  <circle cx="600" cy="180" r="280" fill="url(#centerGlow)" class="pulsing-orb" />
+  <circle cx="150" cy="80" r="140" fill="#3b82f6" opacity="0.08" filter="url(#shadow)" />
+  <circle cx="1060" cy="280" r="160" fill="#ec4899" opacity="0.08" filter="url(#shadow)" />
+
+  <!-- Animated Background Elements (Left & Right background wings, far from central text) -->
+  <!-- Left Side: Live Visitor Radar Illustration -->
+  <g class="floating-card-1" opacity="0.85">
+    <circle cx="100" cy="180" r="45" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <circle cx="100" cy="180" r="30" fill="none" stroke="#38bdf8" stroke-dasharray="4 3" opacity="0.4" />
+    <circle cx="100" cy="180" class="wave-1" fill="none" stroke="#38bdf8" />
+    <circle cx="100" cy="180" class="wave-2" fill="none" stroke="#38bdf8" />
+    <circle cx="100" cy="180" r="6" fill="#38bdf8" />
+    <circle cx="118" cy="168" r="4" fill="#10b981" />
+    <circle cx="86" cy="196" r="3.5" fill="#f59e0b" />
+    <!-- Mini pill -->
+    <rect x="52" y="240" width="96" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" />
+    <text x="100" y="257" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#38bdf8" font-weight="600">● Live Visitors</text>
+  </g>
+
+  <!-- Right Side: Live Chat Dialog Cards -->
+  <g class="floating-card-2" opacity="0.9">
+    <!-- Chat Card 1 -->
+    <g class="chat-bubble-anim">
+      <rect x="1000" y="90" width="160" height="60" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1" filter="url(#shadow)" />
+      <rect x="1015" y="105" width="28" height="6" rx="3" fill="#38bdf8" />
+      <rect x="1015" y="118" width="120" height="5" rx="2.5" fill="#64748b" />
+      <rect x="1015" y="130" width="80" height="5" rx="2.5" fill="#475569" />
+      <circle cx="1140" cy="108" r="4" fill="#10b981" />
+    </g>
+
+    <!-- Chat Card 2 (Bot Response) -->
+    <g>
+      <rect x="1030" y="170" width="145" height="54" rx="12" fill="#2e1065" stroke="#7c3aed" stroke-width="1" filter="url(#shadow)" />
+      <rect x="1045" y="184" width="36" height="6" rx="3" fill="#c084fc" />
+      <rect x="1045" y="197" width="105" height="5" rx="2.5" fill="#a855f7" opacity="0.7" />
+      <circle cx="1155" cy="187" r="4" fill="#a855f7" />
+    </g>
+
+    <!-- Chat Card 3 (Visitor Ping) -->
+    <g class="chat-bubble-anim">
+      <rect x="1010" y="244" width="150" height="48" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+      <circle cx="1026" cy="268" r="10" fill="#0284c7" />
+      <text x="1026" y="272" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#fff" font-weight="bold">AI</text>
+      <rect x="1045" y="261" width="90" height="5" rx="2.5" fill="#94a3b8" />
+      <rect x="1045" y="272" width="60" height="5" rx="2.5" fill="#64748b" />
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Titles, Pills (Clean, prominent, uninterrupted) -->
+  <g transform="translate(600, 65)">
+    <!-- Top Badge Pill -->
+    <rect x="-170" y="0" width="340" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+    <text x="0" y="21" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1">
+      ⚡ THE DEFINITIVE CURATED DIRECTORY ⚡
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="155" text-anchor="middle" class="title-text">
+    Awesome Live Chat &amp; Visitor Engagement
+  </text>
+
+  <!-- Accent Gradient Underline -->
+  <rect x="420" y="172" width="360" height="4" rx="2" fill="url(#accentGrad)" />
+
+  <!-- Subtitle -->
+  <text x="600" y="210" text-anchor="middle" class="subtitle-text">
+    Top Enterprise SaaS Platforms • Conversational AI Bots • Self-Hosted Open-Source Alternatives
+  </text>
+
+  <!-- Feature Pills in Foreground -->
+  <g transform="translate(600, 246)">
+    <!-- Pill 1 -->
+    <g transform="translate(-320, 0)">
+      <rect x="0" y="0" width="145" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+      <text x="72" y="23" text-anchor="middle" class="tag-text">💬 Live Chat</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(-160, 0)">
+      <rect x="0" y="0" width="150" height="36" rx="18" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+      <text x="75" y="23" text-anchor="middle" class="tag-text">🤖 AI Copilots</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(5, 0)">
+      <rect x="0" y="0" width="165" height="36" rx="18" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+      <text x="82" y="23" text-anchor="middle" class="tag-text">📡 Visitor Tracking</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(185, 0)">
+      <rect x="0" y="0" width="145" height="36" rx="18" fill="#1e293b" stroke="#34d399" stroke-width="1" />
+      <text x="72" y="23" text-anchor="middle" class="tag-text">🔓 Open Source</text>
+    </g>
+  </g>
+
+  <!-- Bottom Border Highlight -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accentGrad)" rx="2" />
+</svg>

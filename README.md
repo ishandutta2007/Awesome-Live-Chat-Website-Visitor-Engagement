@@ -1,32 +1,45 @@
-# Awesome Live Chat & Website Visitor Engagement Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Live Chat &amp; Website Visitor Engagement Banner" width="100%" />
+</p>
 
-> A curated directory of the best **Live Chat Software**, **Website Visitor Engagement Platforms**, **Conversational Marketing Bots**, and their **Self-Hosted Open-Source Alternatives**.
+# 💬 Awesome Live Chat & Website Visitor Engagement Software
 
-Modern live chat widgets and real-time visitor tracking platforms empower businesses to engage website visitors proactively, qualify leads automatically with conversational AI, and provide instant omnichannel customer support across web, email, SMS, and social messaging channels.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+> 🌟 A curated directory of the best **Live Chat Software**, **Website Visitor Engagement Platforms**, **Conversational Marketing Bots**, and their **Self-Hosted Open-Source Alternatives**.
 
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [Top SaaS / Hosted Platforms](#top-saas--hosted-platforms)
-- [Top Open-Source & Self-Hosted Alternatives](#top-open-source--self-hosted-alternatives)
-- [Key Selection Criteria](#key-selection-criteria)
-- [Contributing](#contributing)
-
----
-
-## Sector Overview & Market Dynamics
-
-The global live chat and conversational engagement software market is estimated at **$1.2 billion to $1.25 billion in 2024–2025** for pure-play live chat, scaling past **$11 billion** when expanded across the broader conversational AI, ticketing, and omnichannel customer experience (CX) ecosystem (growing at an estimated 8%–13% CAGR).
-
-The sector is **moderately fragmented and highly competitive**: while the broader landscape features thousands of lightweight chat plugins and SMB-focused widgets, the top of the market is moderately concentrated among established CX and CRM incumbents (such as Salesforce, Zendesk, Zoho, Freshworks, and Intercom) that are rapidly consolidating conversational marketing with autonomous AI agents.
+Modern live chat widgets and real-time visitor tracking platforms empower businesses to engage website visitors proactively ⚡, qualify leads automatically with conversational AI 🤖, and provide instant omnichannel customer support across web, email, SMS, and social messaging channels 📱.
 
 ---
 
-## Top SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Below is a comparison of the top commercial, hosted live chat and visitor engagement platforms, sorted in descending order by company size (valuation / estimated market capitalization / annual recurring revenue).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Top SaaS / Hosted Platforms](#-top-saas--hosted-platforms)
+- [🔓 Top Open-Source & Self-Hosted Alternatives](#-top-open-source--self-hosted-alternatives)
+- [🎯 Key Selection Criteria](#-key-selection-criteria)
+- [⭐ Star History](#-star-history)
+- [🤝 Support](#-support)
+- [✨ Contributing](#-contributing)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global live chat and conversational engagement software market is estimated at **$1.2 billion to $1.25 billion in 2024–2025** for pure-play live chat, scaling past **$11 billion** when expanded across the broader conversational AI, ticketing, and omnichannel customer experience (CX) ecosystem (growing at an estimated 8%–13% CAGR) 📈.
+
+The sector is **moderately fragmented and highly competitive**: while the broader landscape features thousands of lightweight chat plugins and SMB-focused widgets, the top of the market is moderately concentrated among established CX and CRM incumbents (such as Salesforce, Zendesk, Zoho, Freshworks, and Intercom) that are rapidly consolidating conversational marketing with autonomous AI agents 🤖.
+
+---
+
+## 💼 Top SaaS / Hosted Platforms
+
+Below is a comparison of the top commercial, hosted live chat and visitor engagement platforms, sorted in descending order by company size (valuation / estimated market capitalization / annual recurring revenue) 🏢.
 
 | Product | Company Size (Valuation / Revenue) | Starting Tier Price | Free Tier Limits / Free Trial | Key Features |
 | :--- | :--- | :--- | :--- | :--- |
@@ -43,11 +56,11 @@ Below is a comparison of the top commercial, hosted live chat and visitor engage
 
 ---
 
-## Top Open-Source & Self-Hosted Alternatives
+## 🔓 Top Open-Source & Self-Hosted Alternatives
 
-Open-source live chat software provides complete privacy, data sovereignty (GDPR/HIPAA compliance), full customizability, and independence from commercial vendor lock-in.
+Open-source live chat software provides complete privacy, data sovereignty (GDPR/HIPAA compliance), full customizability, and independence from commercial vendor lock-in 🛡️.
 
-Below are the leading open-source live chat and website visitor engagement platforms, sorted in descending order by GitHub stargazers count:
+Below are the leading open-source live chat and website visitor engagement platforms, sorted in descending order by GitHub stargazers count ⭐:
 
 | Repository & Star Badge | Description | Tech Stack | License | Stargazers |
 | :--- | :--- | :--- | :--- | :--- |
@@ -66,21 +79,38 @@ Below are the leading open-source live chat and website visitor engagement platf
 
 ---
 
-## Key Selection Criteria
+## 🎯 Key Selection Criteria
 
 When choosing between hosted SaaS and self-hosted open-source live chat software, evaluate:
 
-1. **Visitor Tracking & Deanonymization**: Real-time visibility into active webpage views, referral sources, UTM campaign tags, and IP geolocation.
-2. **Autonomous AI Agents & Chatbots**: High-precision answer retrieval from knowledge bases, intent recognition, automated qualification, and human agent handoff.
-3. **Omnichannel Messaging Consolidation**: Unified inboxes spanning website chat widgets, WhatsApp, Facebook Messenger, Instagram DM, SMS, and email.
-4. **Data Sovereignty & Self-Hosting**: Ensuring user chat transcripts, contact metadata, and PII comply with GDPR, HIPAA, and CCPA requirements.
-5. **Total Cost of Ownership (TCO)**: Evaluating per-seat monthly subscription models versus infrastructure hosting and maintenance costs.
+1. **Visitor Tracking & Deanonymization** 📡: Real-time visibility into active webpage views, referral sources, UTM campaign tags, and IP geolocation.
+2. **Autonomous AI Agents & Chatbots** 🤖: High-precision answer retrieval from knowledge bases, intent recognition, automated qualification, and human agent handoff.
+3. **Omnichannel Messaging Consolidation** 📬: Unified inboxes spanning website chat widgets, WhatsApp, Facebook Messenger, Instagram DM, SMS, and email.
+4. **Data Sovereignty & Self-Hosting** 🔒: Ensuring user chat transcripts, contact metadata, and PII comply with GDPR, HIPAA, and CCPA requirements.
+5. **Total Cost of Ownership (TCO)** 💰: Evaluating per-seat monthly subscription models versus infrastructure hosting and maintenance costs.
 
 ---
 
-## Contributing
+##  Star History
 
-Contributions, feature additions, and corrections are welcome!
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)
+
+---
+
+## 🤝 Support
+
+Thank you for exploring this curated repository! If you find this project valuable, please consider supporting it:
+
+- ⭐ **Star this repository** to help others discover it
+- 🍴 **Fork and contribute** new tools, corrections, or integrations
+- 📢 **Share** this list with colleagues and on social media
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new curated open-source projects, visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ✨ Contributing
+
+Contributions, feature additions, and corrections are welcome! 🙌
 1. Fork this repository.
 2. Create your feature branch (`git checkout -b feature/add-new-tool`).
 3. Commit your changes (`git commit -m 'Add new open-source live chat tool'`).
