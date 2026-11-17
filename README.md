@@ -4,13 +4,12 @@
 
 # 💬 Awesome Live Chat & Website Visitor Engagement Software
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement?style=social&color=white" alt="GitHub Stars"/></a>
-<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A definitive, curated index of premier Live Chat Software, Website Visitor Tracking & Deanonymization Suites, Conversational Marketing Bots, and Self-Hosted Open-Source Customer Engagement Platforms.**
 
@@ -25,8 +24,8 @@
 - [🔓 Top Open-Source & Self-Hosted Alternatives](#-top-open-source--self-hosted-alternatives)
 - [🎯 Key Selection Criteria & Architectural Matrix](#-key-selection-criteria--architectural-matrix)
 - [🔍 SEO Keyword Taxonomy & Topic Glossary](#-seo-keyword-taxonomy--topic-glossary)
-- [⭐ Star History](#-star-history)
 - [🤝 Support](#-support)
+- [⭐️ Star History](#️-star-history)
 - [✨ Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -107,12 +106,6 @@ To assist engineers, product managers, and growth teams finding open-source solu
 
 ---
 
-## ⭐ Star History
-
-[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)
-
----
-
 ## 🤝 Support
 
 Thank you for exploring this curated repository! If you find this project valuable, please consider supporting it:
@@ -121,6 +114,12 @@ Thank you for exploring this curated repository! If you find this project valuab
 - 🍴 **Fork and contribute** new tools, corrections, or integrations
 - 📢 **Share** this list with colleagues and on social media
 - ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new curated open-source projects, visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⭐️ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement&type=date&legend=top-left)
 
 ---
 
