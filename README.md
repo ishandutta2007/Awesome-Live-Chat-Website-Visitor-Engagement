@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement?style=social&color=white" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Chat-Website-Visitor-Engagement?style=social&color=white" alt="GitHub_Stars"/></a>
 <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,7 +64,7 @@ Open-source and self-hosted live chat systems provide total data ownership, GDPR
 
 Below are top open-source live chat widgets, visitor engagement platforms, and conversational AI agent engines, ranked in **descending order by GitHub stargazers count** ⭐:
 
-| Repository & Stars Badge | Description | Tech Stack | License | Stargazers |
+| Repository & Stars_Badge | Description | Tech Stack | License | Stargazers |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub_Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) | Enterprise communication hub featuring an embeddable website Livechat widget, omnichannel customer messaging, and secure team collaboration. | JavaScript, TypeScript, Node.js, MongoDB | MIT | [![Stargazers](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=flat&label=Stars&color=blue)](https://github.com/RocketChat/Rocket.Chat/stargazers) |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Leading open-source omnichannel customer support platform and live chat widget. Direct self-hosted alternative to Intercom, Zendesk, and Drift. | Ruby on Rails, Vue.js, PostgreSQL, Redis | AGPL-3.0 / MIT | [![Stargazers](https://img.shields.io/github/stars/chatwoot/chatwoot?style=flat&label=Stars&color=blue)](https://github.com/chatwoot/chatwoot/stargazers) |
